@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #1c1c21;
+  padding: 25px 0;
+  box-shadow: 0 24px 32px rgba(0, 0, 0, .04);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1280px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+}
+
+.case {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.active {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.inactive {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #8585ad;
+}
