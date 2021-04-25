@@ -1,5 +1,5 @@
 import { CurrencyIcon, Counter } from '@ya.praktikum/react-developer-burger-ui-components';
-import ingredientsElement from './ingredientsElement.module.css';
+import ingredientsElement from './ingredients-element.module.css';
 
 const IngredientsElement = ({ id, image, price, name }) => (
   <li className={ingredientsElement.item} key={id}>

@@ -1,5 +1,6 @@
-import { ConstructorElement } from '@ya.praktikum/react-developer-burger-ui-components';
-import itemsConstrustor from './itemsConstrustor.module.css';
+import { ConstructorElement, Button } from '@ya.praktikum/react-developer-burger-ui-components';
+import itemsConstrustor from './items-construstor.module.css';
+import currency from '../../images/currency.svg'
 
 const ItemsConstructor = ({ array }) => {
   const arr = array.filter(item => item.type != 'bun');
@@ -18,7 +19,14 @@ const ItemsConstructor = ({ array }) => {
       </ul>
       <ul className={itemsConstrustor.container}>
         <ConstructorElement key={bottomBun._id} thumbnail={bottomBun.image_mobile} text={bottomBun.name} price={bottomBun.price} isLocked={true} type="bottom"/>    
-      </ul>   
+      </ul>
+      <div className={itemsConstrustor.section} >
+        <div className={itemsConstrustor.case}>
+          <span className={itemsConstrustor.span}>2000</span>
+          <img src={currency} alt="currency" className={itemsConstrustor.currency} />
+        </div>
+        <Button type="primary" size="medium">Оформить заказ</Button>
+      </div>  
   </div>
   )
 }

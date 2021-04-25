@@ -1,5 +1,5 @@
-import IngredientsElement from '../IngredientsElement/IngredientsElement';
-import itemsIngredients from './itemsIngredients.module.css';
+import IngredientsElement from '../ingredients-element/ingredients-element';
+import itemsIngredients from './items-ingredients.module.css';
 
 const Items = ({ data }) => ( 
   <ul className={itemsIngredients.block}>

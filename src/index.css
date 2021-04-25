@@ -10,3 +10,28 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
+@font-face {
+  font-family: 'Iceland';
+  src: url('./fonts/Iceland-Regular.woff2') format('woff2'),
+       url('./fonts/Iceland-Regular.woff') format('woff'),
+       url('./fonts/Iceland-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('./fonts/JetBrainsMono-Bold.woff2') format('woff2'),
+       url('./fonts/JetBrainsMono-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('./fonts/JetBrainsMono-Regular.woff2') format('woff2'),
+       url('./fonts/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

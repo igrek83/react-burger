@@ -1,5 +1,5 @@
-import burgerConstructor from './burgerConstructor.module.css';
-import ItemsConstructor from '../ItemsConstructor/ItemsConstructor';
+import burgerConstructor from './burger-constructor.module.css';
+import ItemsConstructor from '../items-constructor/items-constructor';
 import PropTypes from 'prop-types';
 
 const BurgerConstructor = ({ array }) => {

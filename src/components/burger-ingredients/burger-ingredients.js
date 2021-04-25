@@ -1,6 +1,6 @@
-import burgerIngredients from './burgerIngredients.module.css';
-import ItemsIngredients from '../ItemsIngredients/ItemsIngredients';
-import Menu from '../Menu/Menu';
+import burgerIngredients from './burger-ingredients.module.css';
+import ItemsIngredients from '../items-ingredients/items-ingredients';
+import Menu from '../menu/menu';
 import PropTypes from 'prop-types';
 
 const BurgerIngredients = ({ array }) => {
