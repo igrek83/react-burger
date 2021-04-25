@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import app from './app.module.css';
 import '@ya.praktikum/react-developer-burger-ui-components';
 import AppHeader from '../app-header/app-header';
