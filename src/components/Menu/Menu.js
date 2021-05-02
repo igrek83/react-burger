@@ -3,7 +3,8 @@ import { Tab } from '@ya.praktikum/react-developer-burger-ui-components';
 import menu from './menu.module.css';
 
 const Menu = () => {
-  const [current, setCurrent] = React.useState('one')
+  const [current, setCurrent] = React.useState('one');
+
   return (
     <div className={menu.box}>
       <Tab value="one" active={current === 'one'} onClick={setCurrent}>

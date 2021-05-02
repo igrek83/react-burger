@@ -1,13 +1,59 @@
-body {
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('./fonts/JetBrainsMono-Bold.woff2') format('woff2'),     
+      url('./fonts/JetBrainsMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('./fonts/JetBrainsMono-Regular.woff2') format('woff2'),     
+      url('./fonts/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Iceland';
+  src: url('./fonts/Iceland-Regular.woff') format('woff'),    
+      url('./fonts/Iceland-Regular.woff2') format('woff2'),     
+      url('./fonts/Iceland-Regular.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+#modals {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/*костыли**/
+.constructor-element {
+  display: flex !important;
+  min-width: 488px !important;
+}
+
+.constructor-element__row {
+  width: 100% !important;
+  justify-content: space-between !important;
+}
+
+.constructor-element__text {
+  width: 180px !important;
 }
