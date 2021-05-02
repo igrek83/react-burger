@@ -17,7 +17,7 @@
 .block {
   display: flex;
   justify-content: space-between;
-  width: 750px;
+  width: 759px;
 }
 
 .case {
@@ -26,15 +26,34 @@
   width: 350px;
 }
 
-.active {
+.item {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-.inactive {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
+.nameActive {
+  font-family: 'JetBrainsMono';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f2f2f3;
+  margin-left: 8px;
+}
+
+.nameInactive {
+  font-family: 'JetBrainsMono';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
   color: #8585ad;
+  margin-left: 8px;
+}
+
+.logo {
+  width: 289px;
+  height: 46px;
+  background-size: cover;
+  background-image: url(../../images/logo.svg);
+  cursor: pointer;
 }

@@ -37,7 +37,7 @@
 }
 
 .name {
-  font-family: 'JetBrains';
+  font-family: 'JetBrainsMono';
   font-weight: bold;
   font-size: 24px;
   color: #f2f2f3;
@@ -92,7 +92,7 @@
 }
 
 .span {
-  font-family: 'JetBrains';
+  font-family: 'JetBrainsMono';
   font-weight: normal;
   font-size: 16px;
   color: #f2f2f3;
@@ -101,7 +101,7 @@
 }
 
 .text {
-  font-family: 'JetBrains';
+  font-family: 'JetBrainsMono';
   font-weight: normal;
   font-size: 16px;
   color: #8585ad;

@@ -5,7 +5,7 @@
 }
 
 .name {
-  font-family: 'JetBrains';
+  font-family: 'JetBrainsMono';
   font-weight: bold;
   font-size: 24px;
   color: #f2f2f3;
@@ -14,7 +14,7 @@
 }
 
 .description {
-  font-family: 'JetBrains';
+  font-family: 'JetBrainsMono';
   font-size: 14px;
   font-weight: normal;
   color: #f2f2f3;
@@ -25,7 +25,7 @@
 .container {
   display: flex;
   justify-content: space-between;
-  width: 400px;
+  width: 520px;
 }
 
 .item {
@@ -37,7 +37,7 @@
 }
 
 .span {
-  font-family: 'JetBrains';
+  font-family: 'JetBrainsMono';
   font-size: 16px;
   font-weight: normal;
   color: #8585ad;
