@@ -12,26 +12,48 @@
 }
 
 @font-face {
+  font-family: 'JetBrainsMono';
+  src: url('./fonts/JetBrainsMono-Bold.woff2') format('woff2'),     
+      url('./fonts/JetBrainsMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('./fonts/JetBrainsMono-Regular.woff2') format('woff2'),     
+      url('./fonts/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Iceland';
-  src: url('./fonts/Iceland-Regular.woff2') format('woff2'),
-       url('./fonts/Iceland-Regular.woff') format('woff'),
-       url('./fonts/Iceland-Regular.ttf') format('truetype');
-  font-weight: normal;
+  src: url('./fonts/Iceland-Regular.woff') format('woff'),    
+      url('./fonts/Iceland-Regular.woff2') format('woff2'),     
+      url('./fonts/Iceland-Regular.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'JetBrainsMono';
-  src: url('./fonts/JetBrainsMono-Bold.woff2') format('woff2'),
-       url('./fonts/JetBrainsMono-Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+#modals {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-@font-face {
-  font-family: 'JetBrainsMono';
-  src: url('./fonts/JetBrainsMono-Regular.woff2') format('woff2'),
-       url('./fonts/JetBrainsMono-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+
+/*костыли**/
+.constructor-element {
+  display: flex !important;
+  min-width: 488px !important;
+}
+
+.constructor-element__row {
+  width: 100% !important;
+  justify-content: space-between !important;
+}
+
+.constructor-element__text {
+  width: 180px !important;
 }
