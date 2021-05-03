@@ -3,15 +3,7 @@ import { BurgerIcon, ListIcon, ProfileIcon } from '@ya.praktikum/react-developer
 import appHeader from './app-header.module.css';
 
 const AppHeader = () => {
-  /*
-  const [classes, setClasses] = useState(appHeader.nameInactive)
-  const [type, setType] = useState('secondary')
-
-  const constructorPage = () => {
-    setClasses(appHeader.nameActive);
-    setType('primary');     
-  }
-*/
+ 
   const [constructor, setConstructor] = useState([appHeader.nameActive, 'primary']);
   const [feed, setFeed] = useState([appHeader.nameInactive, 'secondary']);
   const [office, setOffice] = useState([appHeader.nameInactive, 'secondary']);
